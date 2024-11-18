@@ -1,8 +1,11 @@
-name: Voxelizer
+name: TestPlugin
 version: 0.2
-main: dev.twentyfive.voxelizer.Voxelizer
+main: com.joshgrimmett.testPlugin.TestPlugin
 api-version: 1.13
 commands:
   voxelize:
     description: Voxelize a 3d model from a .obj file
     usage: voxelize <.obj file (no spaces)> [<scale, default 1>] [<thickness, default 1>]
+  waypoint:
+    description: Give a waypoint map.
+    usage: /waypoint give

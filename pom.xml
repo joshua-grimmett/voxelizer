@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dev.twentyfive</groupId>
-    <artifactId>voxelizer</artifactId>
+    <groupId>com.joshgrimmett</groupId>
+    <artifactId>testPlugin</artifactId>
     <version>0.2</version>
 
     <properties>
@@ -18,15 +18,24 @@
             <id>papermc</id>
             <url>https://papermc.io/repo/repository/maven-public/</url>
         </repository>
+        <repository>
+            <id>jaqobb-repository-releases</id>
+            <name>jaqobb Repository</name>
+            <url>https://repository.jaqobb.dev/releases</url>
+        </repository>
     </repositories>
 
     <dependencies>
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.18.1-R0.1-SNAPSHOT</version>
+            <version>1.21.3-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.namemc-api</groupId>
+            <artifactId>namemc-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
-
 </project>
